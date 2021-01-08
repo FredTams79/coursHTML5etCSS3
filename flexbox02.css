@@ -1,0 +1,64 @@
+.fill-height-or-more {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    > div {
+      // these are flex items
+      
+      // flex: 1; same as:
+      // flex-grow: 1;
+      // flex-shrink: 1;
+      // flex-basis: auto;
+      // flex: 1 1 auto;
+      flex: 1;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      > div {
+        // also flex items 
+      }
+    }
+  }
+  
+.some-area {
+    > div {
+      padding: 1rem;
+      &:nth-child(1) {
+        background: rgb(136, 204, 102);
+      }
+      &:nth-child(2) {
+        background: rgb(121, 181, 210);
+      }
+      &:nth-child(3) {
+        background: rgb(140, 191, 217);
+      }
+      &:nth-child(4) {
+        background: rgb(159, 202, 223);
+      }
+      &:nth-child(5) {
+        background: rgb(179, 213, 230);
+      }
+      h1, h2 {
+        margin: 0 0 0.2rem 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  
+  html, body {
+    height: 100%;
+  }
+ 
+  /* j ai rajouter ces lignes car normalment le titre et le fond du paragraphe
+    doivent etre de la meme couleur or rien ??? */
+
+  .boxes{background: rgb(136, 204, 102);}
+  .two{background: rgb(121, 181, 210);}
+  .three{background: rgb(140, 191, 217);}
+  .four{background: rgb(159, 202, 223);}
+  .five{background: rgb(179, 213, 230);}
+
+    View Compiled

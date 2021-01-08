@@ -1,0 +1,29 @@
+#topsection {
+  display: flex;
+  flex-direction: row;
+}
+.element1 {
+  margin: auto;
+  flex: 1;
+}
+.element2 {
+  margin: auto;
+  flex: 2;
+}
+ul {
+  list-style-type: none;
+}
+h1{
+  background-color: purple;
+  width: 50%;
+}
+h2{
+  background-color: green;
+  width: 10%;
+}
+p{
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
