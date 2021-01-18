@@ -1,0 +1,15 @@
+/* Feuille de styles CSS exercice_02 */
+h1 {
+  color: red;
+  font-size: 3em;
+}
+figure {
+  text-align: center;
+}
+ul {
+  border: 4px green solid;
+  box-shadow: 5px 5px 2px black;
+}
+a:hover {
+  font-weight: bold;
+}

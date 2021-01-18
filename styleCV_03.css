@@ -1,0 +1,149 @@
+/* Feuille de styles CSS pour mon CV html et css */
+@font-face {
+  font-family: "ralewayblack";
+  src: url("raleway-black-webfont.eot");
+  src: url("raleway-black-webfont.woff") format("woff"),
+    url("raleway-black-webfont.ttf") format("truetype"),
+    url("raleway-black-webfont.svg#ralewayblack") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ralewaymedium";
+  src: url("raleway-medium-webfont.eot");
+  src: url("raleway-medium-webfont.woff") format("woff"),
+    url("raleway-medium-webfont.ttf") format("truetype"),
+    url("raleway-medium-webfont.svg#ralewaymedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 1400px;
+  margin: 40px;
+  background-image: url("images/Fond_01.png");
+  background-repeat: repeat-2;
+  background-attachment: fixed;
+  background-position: top;
+  font-family: "ralewayblack", Verdana, Impact, Georgia, Arial;
+}
+h1 {
+  background-color: white;
+  color: rgb(8, 99, 0);
+  font-size: 3em;
+  text-align: center;
+  margin: auto;
+  font-family: "ralewaymedium", Verdana, Impact, Georgia, Arial;
+}
+h2 {
+  background-color: white;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(8, 99, 0);
+  text-align: center;
+  text-decoration: overline;
+  font-family: "ralewayblack", Verdana, Impact, Georgia, Arial;
+}
+section {
+  text-align: justify;
+  display: flex;
+}
+aside {
+  position: absolute;
+  background-color: white;
+  border: solid;
+  box-shadow: 5px 5px 2px rgb(8, 99, 0);
+  border-radius: 20px;
+  width: 250px;
+  height: 212%;
+  text-align: center;
+  margin-left: 50px;
+}
+article {
+  position: relative;
+  margin-left: 350px;
+}
+footer p {
+  font-weight: bold;
+  text-align: right;
+}
+.dev {
+  font-family: "ralewayblack", Verdana, Impact, Georgia, Arial;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(125, 8, 0);
+}
+.liens {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+  color: purple;
+}
+
+.presentation {
+  font-size: 1.2em;
+  text-align: justify;
+  font-weight: bold;
+  color: purple;
+  text-align: top left;
+  width: 1200px;
+  padding: 5px;
+  margin: auto;
+}
+.raccourci {
+  margin: 50px;
+  color: rgb(0, 85, 125);
+  text-align: top left;
+}
+p {
+  color: rgb(41, 0, 138);
+  text-align: center;
+  font-family: "ralewayblack", Verdana, Impact, Georgia, Arial;
+}
+.puceflottante {
+  opacity: 1;
+}
+#ma_photo {
+  float: top middle;
+  opacity: 1;
+}
+ul {
+  font-size: 1em;
+  color: black;
+  border: 4px black solid;
+  list-style-image: url("images/puce_oeil_01.png");
+  box-shadow: 5px 5px 2px rgb(8, 99, 0);
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+.liste {
+  font-family: "ralewayblack", Verdana, Impact, Georgia, Arial;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(125, 8, 0);
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+.hautpage {
+  font-size: 0.8em;
+  font-style: italic;
+  color: rgb(0, 85, 125);
+}
+a:hover {
+  font-style: italic;
+  color: black;
+}
+a:link {
+  font-weight: bold;
+  color: rgb(125, 8, 0);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 85, 125);
+}
+.picto-item {
+  cursor: zoom-in; /*symbole zoom sur l'image*/
+}
