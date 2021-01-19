@@ -1,19 +1,20 @@
 /* Feuille de styles CSS pour mon CV html et css */
 @font-face {
   font-family: "ralewayblack";
-  src: url("raleway-black-webfont.eot");
-  src: url("raleway-black-webfont.woff") format("woff"),
-    url("raleway-black-webfont.ttf") format("truetype"),
-    url("raleway-black-webfont.svg#ralewayblack") format("svg");
+  src: url("Polices/Raleway/raleway-black-webfont.eot");
+  src: url("Polices/Raleway/raleway-black-webfont.woff") format("woff"),
+    url("Polices/Raleway/raleway-black-webfont.ttf") format("truetype"),
+    url("Polices/Raleway/raleway-black-webfont.svg#ralewayblack") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "ralewaymedium";
-  src: url("raleway-medium-webfont.eot");
-  src: url("raleway-medium-webfont.woff") format("woff"),
-    url("raleway-medium-webfont.ttf") format("truetype"),
-    url("raleway-medium-webfont.svg#ralewaymedium") format("svg");
+  src: url("Polices/Raleway/raleway-medium-webfont.eot");
+  src: url("Polices/Raleway/raleway-medium-webfont.woff") format("woff"),
+    url("Polices/Raleway/raleway-medium-webfont.ttf") format("truetype"),
+    url("Polices/Raleway/raleway-medium-webfont.svg#ralewaymedium")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
